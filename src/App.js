@@ -249,7 +249,7 @@ function App() {
             </span>
           </div>
         )}
-        {todos.length > 0 && <footer>Drag and drop to reorder list</footer>}
+        {todos.length > 1 && <footer>Drag and drop to reorder list</footer>}
       </div>
 
       <div className="attribution">
